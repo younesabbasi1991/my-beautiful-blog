@@ -1,0 +1,20 @@
+.header {
+    border-bottom: 1px solid #ebebeb;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerBox {
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerNav ul {
+    display: flex;
+    gap: 20px;
+}
+.headerNav ul a {
+    color: rgb(41, 40, 40);
+}

@@ -1,0 +1,43 @@
+.slider {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sliderRight  {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.sliderRight div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+.sliderRight div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sliderRight div:last-child h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.sliderRight div:last-child p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.sliderLeft img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.sliderLeft {
+    width: 49%;
+   
+}
