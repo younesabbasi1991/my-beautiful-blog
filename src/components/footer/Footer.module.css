@@ -1,0 +1,46 @@
+.footerContainerFluid {
+    margin-top: 30px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+}
+.footerContainer {
+    width: 1124px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+.footerTop div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footerMiddle {
+    display: flex;
+    justify-content: space-between;
+}
+.footerMiddle div:first-child p {
+    font-weight: 200;
+    text-align: justify;
+    margin-top: 10px;
+}
+.footerMiddle div:first-child, .footerMiddle div:nth-child(2), .footerMiddle div:last-child {
+    width: 30%;
+}
+
+.footerMiddle div:nth-child(2) ul li {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 200;
+    margin-top: 10px;
+    cursor: pointer;
+    /* color: rgb(222, 222, 222); */
+}

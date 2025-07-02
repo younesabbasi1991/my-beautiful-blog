@@ -1,3 +1,4 @@
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import SliderOne from "../components/sliderone/SliderOne";
 function Home() {
@@ -6,9 +7,10 @@ function Home() {
       <Header />
       <div className="container-fluid">
         <div className="container">
-           <SliderOne />
+          <SliderOne />
         </div>
       </div>
+      <Footer />
     </>
   );
 }
