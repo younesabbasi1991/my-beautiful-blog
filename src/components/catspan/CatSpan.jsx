@@ -1,8 +1,12 @@
 import style from "./CatSpan.module.css"
-function CatSpan (probs) {
-    return(
-        <span className={style.catSpan} style={{backgroundColor: probs.backColor, color: probs.color}}>{probs.title}</span>
-    )
+function CatSpan({ backColor, color, title }) {
+  return (
+    <span
+      className={style.catSpan}
+      style={{ backgroundColor: `${backColor}`, color: `${color}` }}>
+      {title}
+    </span>
+  );
 }
 
 export default CatSpan;
